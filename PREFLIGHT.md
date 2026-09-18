@@ -1,0 +1,134 @@
+# Pre-flight: exclusion-display-audit
+
+**Gate: PASSED** (0 blocking, 40 advisory)
+
+Deterministic checks against the engine-derived `FACTS.json`, run before the critic panel is dispatched. No model judgment is involved.
+
+Mechanical prose gate (roles/writing/gate_mechanical.md), hits per rule: M1 em dash 0, M6 throat-clearing opener 0, M15 exclamation mark 0, M18 content-free opener 0, M5 hype word 0, M5b quality adjective 0, M2 antithesis as decoration 7, M3 editorializing closer 0, M4 vacuous intensifier 3, M8 grandiose setup 0, M9 metaphor filler 0, M10 vague-mechanism verb 0, M11 passive voice 42, M12 wordiness 0, M13 weak qualifier 0, M14 coined adverb / false ordinal 0, M16 pompous word 0, M17 fancy verb 0, B precision pair 0.
+
+## ADVISORY (40)
+
+- [quantifier] `paper/main.tex:20`: With one exception, every evaluable derived row of Graham and Olum and of Wall was exactly confirmed on every premise-satisfying instance that evaluated (a searcher-recorded outcome, not an engine count)
+  - Universal claim over a campaign quantity. Confirm against FACTS.json that it holds for every member, not all but one: 'all 40 are worse on both spreads' failed here because 39 were and one was better on one.
+  - id: `1bd1f52b5a6a`
+- [quantifier] `paper/main.tex:88`: The contract further fixes five rejection examples that the frozen verifier must refuse: the planar Schwarzschild W-7 witness at $r=3$ (refused because W-7 is exactly confirmed on it), the FW-D7-corrected row, the definition GO-4, a W-29 in
+  - Universal claim over a campaign quantity. Confirm against FACTS.json that it holds for every member, not all but one: 'all 40 are worse on both spreads' failed here because 39 were and one was better on one.
+  - id: `d5db1ef4e424`
+- [quantifier] `paper/main.tex:150`: \subsection{Every evaluable row except W-30 is exactly confirmed on the instances that evaluated}
+  - Universal claim over a campaign quantity. Confirm against FACTS.json that it holds for every member, not all but one: 'all 40 are worse on both spreads' failed here because 39 were and one was better on one.
+  - id: `81b2776d538d`
+- [quantifier] `paper/main.tex:153`: GO-5 is linear in $T_{kk}$ and $Z_{kk}$ with constant $\Omega$, so every instance is confirmed with zero residual
+  - Universal claim over a campaign quantity. Confirm against FACTS.json that it holds for every member, not all but one: 'all 40 are worse on both spreads' failed here because 39 were and one was better on one.
+  - id: `1fb886efda2e`
+- [quantifier] `paper/main.tex:153`: No pp-wave instance evaluated W-7
+  - Universal claim over a campaign quantity. Confirm against FACTS.json that it holds for every member, not all but one: 'all 40 are worse on both spreads' failed here because 39 were and one was better on one.
+  - id: `119beb18c82a`
+- [prose] `paper/main.tex:20`: M2 antithesis as decoration: ', not an'
+  - Sentence: With one exception, every evaluable derived row of Graham and Olum and of Wall was exactly confirmed on every premise-satisfying instance that evaluated (a searcher-recorded outcome, not an engine cou. Keep-vs-cut test: would the sentence lose factual content if the negation were removed and the positive asserted? If not, cut it and assert the positive.
+  - id: `c417841df0a0`
+- [prose] `paper/main.tex:153`: M2 antithesis as decoration: ', not a'
+  - Sentence: The same ledger field continues: the only on a target paper is the W-30 premise-gate gap, which is a verifier defect, not a paper defect. Keep-vs-cut test: would the sentence lose factual content if the negation were removed and the positive asserted? If not, cut it and assert the positive.
+  - id: `5c8d8a4e16d2`
+- [prose] `paper/main.tex:153`: M2 antithesis as decoration: ', not an'
+  - Sentence: That sentence is the searcher's self-report, not an engine count, and no mechanical replay of the sweep is on the ledger, so the confirmation statement carries the searcher-recorded label throughout. Keep-vs-cut test: would the sentence lose factual content if the negation were removed and the positive asserted? If not, cut it and assert the positive.
+  - id: `6789a1fa7cc5`
+- [prose] `paper/main.tex:197`: M2 antithesis as decoration: 'rather than'
+  - Sentence: The ledger's free-text field for that row calls it an identical instance to the W-30 hit; that wording is the searcher's error, since the two instances differ in every coefficient, and this paper foll. Keep-vs-cut test: would the sentence lose factual content if the negation were removed and the positive asserted? If not, cut it and assert the positive.
+  - id: `9710f5c2102c`
+- [prose] `paper/main.tex:233`: M2 antithesis as decoration: 'rather than'
+  - Sentence: Each needs a Director ruling on what the mechanical statement is before it can be a target; the contract parks Wall on those rows rather than letting an evaluator invent the statement. Keep-vs-cut test: would the sentence lose factual content if the negation were removed and the positive asserted? If not, cut it and assert the positive.
+  - id: `2f1bf77b7d37`
+- [prose] `paper/main.tex:241`: M2 antithesis as decoration: 'rather than'
+  - Sentence: The W-7 confirmations therefore rest on an evaluator whose negative control passed on the frozen bytes, recorded after the run rather than before it. Keep-vs-cut test: would the sentence lose factual content if the negation were removed and the positive asserted? If not, cut it and assert the positive.
+  - id: `7d9535d709c8`
+- [prose] `paper/main.tex:241`: M2 antithesis as decoration: ', not the'
+  - Sentence: Finally, the run's ledger environment blocks record a newer Python interpreter than the contract's pinned python3.12, and the sympy and mpmath versions actually loaded are not attested on the ledger; . Keep-vs-cut test: would the sentence lose factual content if the negation were removed and the positive asserted? If not, cut it and assert the positive.
+  - id: `45e44647b40f`
+- [prose] `paper/main.tex:32`: M4 vacuous intensifier: 'actually'
+  - Sentence: A derived display can be wrong in four ways that we name as mechanism families: a convention mismatch between the display and the text (F1), a finite algebraic slip such as a wrong coefficient (F2), a. Delete, or replace with the precise referent.
+  - id: `30cdd91ef70e`
+- [prose] `paper/main.tex:241`: M4 vacuous intensifier: 'actually'
+  - Sentence: Finally, the run's ledger environment blocks record a newer Python interpreter than the contract's pinned python3.12, and the sympy and mpmath versions actually loaded are not attested on the ledger; . Delete, or replace with the precise referent.
+  - id: `a7df72410f2d`
+- [prose] `paper/main.tex:245`: M4 vacuous intensifier: 'actually'
+  - Sentence: It contains the frozen contract, the frozen verifier with its row registry and calibration rows, every scored candidate with its verdict, the near-miss rows, the ledger, and a one-command reproduction. Delete, or replace with the precise referent.
+  - id: `cc54c815c8c0`
+- [prose] `paper/main.tex:20`: M11 passive voice: 'is met'
+  - Sentence: Neither frozen ship condition is met as written: no hit was re-verified by a source-based reimplementation, and no row carries a symbolic certificate. Over-catches on purpose. Prefer the active voice with a named agent; methods prose in physics may keep the passive when the agent is genuinely irrelevant (state which).
+  - id: `5e8c728be182`
+- [prose] `paper/main.tex:30`: M11 passive voice: 'be violated'
+  - Sentence: Graham and Olum MMMMMMMMMMMMMMMMMMMMM showed that ANEC can be violated along chronal geodesics by conformal rescaling and proposed the achronal restriction. Over-catches on purpose. Prefer the active voice with a named agent; methods prose in physics may keep the passive when the agent is genuinely irrelevant (state which).
+  - id: `ab7d821a8143`
+- [prose] `paper/main.tex:34`: M11 passive voice: 'be evaluated'
+  - Sentence: A negative answer is a set of exact confirmations, one per row, plus a named obstruction for every row that cannot be evaluated mechanically. Over-catches on purpose. Prefer the active voice with a named agent; methods prose in physics may keep the passive when the agent is genuinely irrelevant (state which).
+  - id: `31911ec7527d`
+- [prose] `paper/main.tex:34`: M11 passive voice: 'was run'
+  - Sentence: We report a partial version of it: the contract reserves the word \emph{certificate} for a symbolic closure, none was run, and neither frozen ship condition is met as written, so what we ship are inst. Over-catches on purpose. Prefer the active voice with a named agent; methods prose in physics may keep the passive when the agent is genuinely irrelevant (state which).
+  - id: `ac1f2253b5fe`
+- [prose] `paper/main.tex:34`: M11 passive voice: 'is met'
+  - Sentence: We report a partial version of it: the contract reserves the word \emph{certificate} for a symbolic closure, none was run, and neither frozen ship condition is met as written, so what we ship are inst. Over-catches on purpose. Prefer the active voice with a named agent; methods prose in physics may keep the passive when the agent is genuinely irrelevant (state which).
+  - id: `19da153c913f`
+- [prose] `paper/main.tex:80`: M11 passive voice: 'are refused'
+  - Sentence: Floats are refused.. Over-catches on purpose. Prefer the active voice with a named agent; methods prose in physics may keep the passive when the agent is genuinely irrelevant (state which).
+  - id: `01e1c256c2b0`
+- [prose] `paper/main.tex:82`: M11 passive voice: 'is derived'
+  - Sentence: The row exists, is derived, and has an evaluator. Over-catches on purpose. Prefer the active voice with a named agent; methods prose in physics may keep the passive when the agent is genuinely irrelevant (state which).
+  - id: `907e179d5985`
+- [prose] `paper/main.tex:88`: M11 passive voice: 'is recorded'
+  - Sentence: The registry first transcribed that value from a secondary internal transcription (per the contract); the Director then pinned it from the primary preprint bytes (arXiv:gr-qc/9602052, Appendix D, Eqs.. Over-catches on purpose. Prefer the active voice with a named agent; methods prose in physics may keep the passive when the agent is genuinely irrelevant (state which).
+  - id: `1dd421069077`
+- [prose] `paper/main.tex:88`: M11 passive voice: 'is satisfied'
+  - Sentence: The registry first transcribed that value from a secondary internal transcription (per the contract); the Director then pinned it from the primary preprint bytes (arXiv:gr-qc/9602052, Appendix D, Eqs.. Over-catches on purpose. Prefer the active voice with a named agent; methods prose in physics may keep the passive when the agent is genuinely irrelevant (state which).
+  - id: `d5ed57927850`
+- [prose] `paper/main.tex:88`: M11 passive voice: 'is expected'
+  - Sentence: FW-D7 is therefore expected to hit and FW-D7-corrected (constant MMMMMMM) is expected to confirm; the pair proves the verifier can distinguish a wrong constant from a right one. Over-catches on purpose. Prefer the active voice with a named agent; methods prose in physics may keep the passive when the agent is genuinely irrelevant (state which).
+  - id: `59fb244888cf`
+- [prose] `paper/main.tex:93`: M11 passive voice: 'is checked'
+  - Sentence: The frozen file is hash-pinned on the ledger's reference row and the pin is checked before every run and before any hit row is written. Over-catches on purpose. Prefer the active voice with a named agent; methods prose in physics may keep the passive when the agent is genuinely irrelevant (state which).
+  - id: `40d297284e02`
+- [prose] `paper/main.tex:93`: M11 passive voice: 'is written'
+  - Sentence: The frozen file is hash-pinned on the ledger's reference row and the pin is checked before every run and before any hit row is written. Over-catches on purpose. Prefer the active voice with a named agent; methods prose in physics may keep the passive when the agent is genuinely irrelevant (state which).
+  - id: `bfff34552199`
+- [prose] `paper/main.tex:93`: M11 passive voice: 'was called'
+  - Sentence: The engine derived every count in this paper from the ledger before the writer session was called; the writer session cites those counts and does not recount.. Over-catches on purpose. Prefer the active voice with a named agent; methods prose in physics may keep the passive when the agent is genuinely irrelevant (state which).
+  - id: `2ec627267e89`
+- [prose] `paper/main.tex:114`: M11 passive voice: 'is fixed'
+  - Sentence: Everything in the top row is fixed before the first candidate is evaluated. Over-catches on purpose. Prefer the active voice with a named agent; methods prose in physics may keep the passive when the agent is genuinely irrelevant (state which).
+  - id: `b3bb89ac4f06`
+- [prose] `paper/main.tex:114`: M11 passive voice: 'is evaluated'
+  - Sentence: Everything in the top row is fixed before the first candidate is evaluated. Over-catches on purpose. Prefer the active voice with a named agent; methods prose in physics may keep the passive when the agent is genuinely irrelevant (state which).
+  - id: `08ea4758383e`
+- [prose] `paper/main.tex:146`: M11 passive voice: 'are explained'
+  - Sentence: \begin{figure}[t] \centering \caption{Run-1 census; the two hit rows are explained in Section~MMMMMMMMMMMMMM.} MMMMMMMMMMMMMMMMMM \end{figure}. Over-catches on purpose. Prefer the active voice with a named agent; methods prose in physics may keep the passive when the agent is genuinely irrelevant (state which).
+  - id: `cb0be9b1cce6`
+- [prose] `paper/main.tex:153`: M11 passive voice: 'are listed'
+  - Sentence: The families it reports are listed in Table~MMMMMMMMMMMMMMMMMM. Over-catches on purpose. Prefer the active voice with a named agent; methods prose in physics may keep the passive when the agent is genuinely irrelevant (state which).
+  - id: `7a6bb0896b06`
+- [prose] `paper/main.tex:153`: M11 passive voice: 'is confirmed'
+  - Sentence: GO-5 is linear in MMMMMMMM and MMMMMMMM with constant MMMMMMMM, so every instance is confirmed with zero residual. Over-catches on purpose. Prefer the active voice with a named agent; methods prose in physics may keep the passive when the agent is genuinely irrelevant (state which).
+  - id: `d6d0af5a69ea`
+- [prose] `paper/main.tex:153`: M11 passive voice: 'was confirmed'
+  - Sentence: W-7 was confirmed on the reported rational geometries, including planar Schwarzschild outside the horizon, Reissner--Nordstr\"om, de Sitter and anti-de Sitter, Schwarzschild--de Sitter, flat space, po. Over-catches on purpose. Prefer the active voice with a named agent; methods prose in physics may keep the passive when the agent is genuinely irrelevant (state which).
+  - id: `1931cca73ca4`
+- [prose] `paper/main.tex:153`: M11 passive voice: 'were refused'
+  - Sentence: The three plane-fronted (pp) wave candidates were refused because their supplied tangent was not null; they are the three non-null refusals of Table~MMMMMMMMMMMMMMMMMM, which the ledger's run row misa. Over-catches on purpose. Prefer the active voice with a named agent; methods prose in physics may keep the passive when the agent is genuinely irrelevant (state which).
+  - id: `4581276e639e`
+- [prose] `paper/main.tex:153`: M11 passive voice: 'were confirmed'
+  - Sentence: The three plane-fronted (pp) wave candidates were refused because their supplied tangent was not null; they are the three non-null refusals of Table~MMMMMMMMMMMMMMMMMM, which the ledger's run row misa. Over-catches on purpose. Prefer the active voice with a named agent; methods prose in physics may keep the passive when the agent is genuinely irrelevant (state which).
+  - id: `c79f8ebb2646`
+- [prose] `paper/main.tex:153`: M11 passive voice: 'were confirmed'
+  - Sentence: In each confirmed W-7 case the Raychaudhuri identity and the step MMMMMMMMMMMMMMMMMMMMMMMMMMMMM were confirmed independently. Over-catches on purpose. Prefer the active voice with a named agent; methods prose in physics may keep the passive when the agent is genuinely irrelevant (state which).
+  - id: `01401757c167`
+- [prose] `paper/main.tex:153`: M11 passive voice: 'were refused'
+  - Sentence: The series rows W-27 and W-31 are not a grid: coverage is sparse (Table~MMMMMMMMMMMMMMMMMM), most candidates were refused as malformed, W-27 also had premise refusals not recorded on the ledger, and t. Over-catches on purpose. Prefer the active voice with a named agent; methods prose in physics may keep the passive when the agent is genuinely irrelevant (state which).
+  - id: `eaa502b6ed44`
+- [prose] `paper/main.tex:173`: M11 passive voice: 'are explained'
+  - Sentence: \subsection{Both hit rows are explained without a paper defect} MMMMMMMMMMMMMMMM. Over-catches on purpose. Prefer the active voice with a named agent; methods prose in physics may keep the passive when the agent is genuinely irrelevant (state which).
+  - id: `1b72cdddd4d4`
+- [prose] `paper/main.tex:176`: M11 passive voice: 'are explained'
+  - Sentence: Both carry and both are explained without a defect in a target paper.. Over-catches on purpose. Prefer the active voice with a named agent; methods prose in physics may keep the passive when the agent is genuinely irrelevant (state which).
+  - id: `7d2f39abd3c2`
+
+## Not checked
+
+- numbers inside tikzpicture/axis bodies and \addplot coordinates are not checked: they are plot data, and the index heuristic is not reliable there

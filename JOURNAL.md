@@ -1,0 +1,34 @@
+# Journal — exclusion-display-audit
+
+Append-only. Never edit prior lines.
+
+- 2026-09-18 17:22:19Z · **director** · approved PITCH-GD-0057 · Next action: setup: freeze contract + baseline
+- 2026-09-18 17:40:35Z · **search_architect** · discover_search: search contract + verifier DRAFT written · Next action: human: review workspace/verifier.py.DRAFT, rename to verifier.py, then run setup
+- 2026-09-18 17:44:37Z · **search_architect** · redraft_search_verifier: round 3 — verifier DRAFT revised IN PLACE per Director comments · Next action: human: review workspace/verifier.py.DRAFT again, or approve to freeze
+- 2026-09-18 17:45:40Z · **harness** · search campaign: contract frozen, verifier locked (5 rejection example(s) confirmed) · Next action: run search cycles
+- 2026-09-18 17:48:35Z · **searcher** · search run 1: 1 island(s) explored 309 candidates, 2 claimed, 2 verified; campaign total 2 distinct instances / 2 circuits over 2 hit rows, 4 near-misses · Next action: run the remaining cycles, then consolidate once
+- 2026-09-18 17:52:48Z · **harness** · reproduction package built locally: campaigns/exclusion-display-audit/repro (not published) · Next action: `har repro exclusion-display-audit` to publish it to GitHub
+- 2026-09-18 17:54:46Z · **reader** · prose gate: 25 finding(s), see READER.md · Next action: paper_editor applies them in one round, then the critic panel audits
+- 2026-09-18 17:56:42Z · **harness** · reader-gate edit round made no change (claude_exec auth failed: Not logged in · Please run /login) · Next action: critic panel audits the paper as authored
+- 2026-09-18 17:56:42Z · **writer** · consolidated; LaTeX paper compiled to paper/main.pdf · Next action: critic panel audits the paper
+- 2026-09-18 18:04:37Z · **critic** · audit HOLD: prior-art: Contract kill criterion: setup must not proceed until every fixture reports ok, including the W-7 coefficient · Next action: fix the draft or the claim, then re-run consolidation
+- 2026-09-18 · **director** · fixture run RECORDED on the frozen verifier (a32d47a2310c7bfb) per AUDIT.md's THREATENS finding: --fixtures 15/15 ok (including W-7 coefficient-discrimination, residual -2/9) and --witnesses (planar confirm non-hit; FW-D7 16pi-vs-12pi, abs dev 6.3e-30); output at workspace/out/fixtures-frozen-a32d47a2310c7bfb.log. Chronology for the Limitations rewrite: review rounds 1-3 recorded 3 W-7 fixture failures on the ORIGINAL draft; the round-4 redraft (Sylvester inertia repair) passed 15/15 per its changelog and was frozen; this recorded run re-proves it on the frozen bytes. · Next action: writer revises paper per AUDIT.md; re-audit; then har repro
+- 2026-09-18 18:09:04Z · **writer** · paper revised IN PLACE per audit findings · Next action: critic panel re-audits the paper
+- 2026-09-18 18:09:06Z · **harness** · reproduction package built locally: campaigns/exclusion-display-audit/repro (not published) · Next action: `har repro exclusion-display-audit` to publish it to GitHub
+- 2026-09-18 18:10:16Z · **writer** · paper revised IN PLACE per audit findings · Next action: critic panel re-audits the paper
+- 2026-09-18 18:10:18Z · **harness** · reproduction package built locally: campaigns/exclusion-display-audit/repro (not published) · Next action: `har repro exclusion-display-audit` to publish it to GitHub
+- 2026-09-18 18:10:18Z · **writer** · consolidated; LaTeX paper compiled to paper/main.pdf · Next action: critic panel audits the paper
+- 2026-09-18 18:13:30Z · **critic** · audit HOLD: honesty: The paper ships under condition (b) (Section 3.3, last paragraph; abstract 'The outcome is a question-status ma · Next action: fix the draft or the claim, then re-run consolidation
+- 2026-09-18 · **director** · SHIP RULING (the ruling AUDIT.md's honesty critic asked to be named): the paper ships as a PARTIAL QUESTION-STATUS REPORT, stating plainly that NEITHER frozen ship condition is met as written. Per-paper statuses to print: Graham-Olum = instance-confirmed on every evaluated derived row, no symbolic certificate; Wall = PARKED (non-evaluable rows W-23/W-26/W-32/W-34; W-30 premise-gate gap classified by inspection, pending an approved extension that re-runs hit 0 under a repaired W-5/W-12 gate); Borde = PARKED (acquisition-gated). Title/abstract per the critic: confirmations are instance-level on instances that evaluated; hit-0 classification is by inspection, said in the abstract. FW CONSTANT: the primary-bytes pin EXISTS (Director, this journal, 2026-09-18: sources/flanagan-wald-1996-grqc9602052.pdf, Appendix D Eqs. (D7)/(D13), frozen verifier header lines 34-36) — cite 'printed 12 pi' to the PRIMARY PDF with those equation numbers, not to the secondary transcription; the contract's pin precondition is satisfied. W-30 gate repair and per-row symbolic certificates are priced successor work, not this paper. · Next action: writer revises per AUDIT.md + this ruling; re-audit
+- 2026-09-18 18:16:23Z · **writer** · paper revised IN PLACE per audit findings · Next action: critic panel re-audits the paper
+- 2026-09-18 18:16:25Z · **harness** · reproduction package built locally: campaigns/exclusion-display-audit/repro (not published) · Next action: `har repro exclusion-display-audit` to publish it to GitHub
+- 2026-09-18 18:19:07Z · **writer** · paper revised IN PLACE per audit findings · Next action: critic panel re-audits the paper
+- 2026-09-18 18:19:08Z · **harness** · reproduction package built locally: campaigns/exclusion-display-audit/repro (not published) · Next action: `har repro exclusion-display-audit` to publish it to GitHub
+- 2026-09-18 18:19:08Z · **writer** · consolidated; LaTeX paper compiled to paper/main.pdf · Next action: critic panel audits the paper
+- 2026-09-18 18:23:19Z · **critic** · audit HOLD: reproduction: Section 3.2: W-7 was confirmed on ... 'plane-fronted (pp) waves with matter' · Next action: fix the draft or the claim, then re-run consolidation
+- 2026-09-18 18:25:35Z · **writer** · paper revised IN PLACE per audit findings · Next action: critic panel re-audits the paper
+- 2026-09-18 18:25:37Z · **harness** · reproduction package built locally: campaigns/exclusion-display-audit/repro (not published) · Next action: `har repro exclusion-display-audit` to publish it to GitHub
+- 2026-09-18 18:27:01Z · **writer** · paper revised IN PLACE per audit findings · Next action: critic panel re-audits the paper
+- 2026-09-18 18:27:02Z · **harness** · reproduction package built locally: campaigns/exclusion-display-audit/repro (not published) · Next action: `har repro exclusion-display-audit` to publish it to GitHub
+- 2026-09-18 18:27:02Z · **writer** · consolidated; LaTeX paper compiled to paper/main.pdf · Next action: critic panel audits the paper
+- 2026-09-18 18:33:10Z · **critic** · audit PASSED (see AUDIT.md) · Next action: none — reopening requires a priced condition in PRIORS

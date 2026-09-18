@@ -1,0 +1,179 @@
+{
+ "artifacts": [
+  {
+   "bytes": 21810,
+   "lines": 67,
+   "path": "AUDIT.md",
+   "sha256": "99371c86b8e95511"
+  },
+  {
+   "bytes": 8723,
+   "lines": 24,
+   "path": "CONTRACT.md",
+   "sha256": "8c13c9d3726af827"
+  },
+  {
+   "bytes": 573,
+   "lines": 7,
+   "path": "DIRECTION.md",
+   "sha256": "67a09ede0d120c38"
+  },
+  {
+   "bytes": 6340,
+   "lines": 31,
+   "path": "JOURNAL.md",
+   "sha256": "9357745508c649d4"
+  },
+  {
+   "bytes": 3534,
+   "lines": 23,
+   "path": "PAPER.md",
+   "sha256": "fa915c44aa25981b"
+  },
+  {
+   "bytes": 17419,
+   "lines": 135,
+   "path": "PREFLIGHT.md",
+   "sha256": "d3be4e8180570eac"
+  },
+  {
+   "bytes": 729,
+   "lines": 8,
+   "path": "PRIORS.md",
+   "sha256": "fbd2bc9366674fe5"
+  },
+  {
+   "bytes": 12106,
+   "lines": 55,
+   "path": "READER.md",
+   "sha256": "8c5760c0a9480e08"
+  },
+  {
+   "bytes": 10263,
+   "lines": 53,
+   "path": "contract.json",
+   "sha256": "467d4b4e2a781ec4"
+  },
+  {
+   "bytes": 14678,
+   "lines": 28,
+   "path": "ledger.jsonl",
+   "sha256": "22036b98addcbee6"
+  },
+  {
+   "bytes": 301,
+   "lines": 14,
+   "path": "state.json",
+   "sha256": "a73a425e420f294a"
+  },
+  {
+   "bytes": 4623,
+   "lines": 20,
+   "path": "workspace/out/fixtures-frozen-a32d47a2310c7bfb.log",
+   "sha256": "13302821a1129c8c"
+  },
+  {
+   "bytes": 176682,
+   "lines": 1,
+   "path": "workspace/out/results.json",
+   "sha256": "5a9468e406d0b6a7"
+  },
+  {
+   "bytes": 4675,
+   "lines": 13,
+   "path": "workspace/verifier-review.md",
+   "sha256": "f939fc0ab60cd886"
+  }
+ ],
+ "campaign": "exclusion-display-audit",
+ "contract": {
+  "compute.gpu_boxes": 1.0,
+  "compute.gpu_hours_estimate": 0.0,
+  "compute.gpu_vram_gb": 0.0,
+  "compute.hours_estimate": 0.0,
+  "compute.vram_gb": 0.0,
+  "max_revisions": 0.0,
+  "max_search_runs": 1.0,
+  "parallel_searchers": 1.0
+ },
+ "counts": {
+  "distinct_circuits": 2,
+  "distinct_instances": 2,
+  "duplicate_rows": 0,
+  "hit_rows": 2,
+  "ledger_rows": 27,
+  "near_misses": 4,
+  "promotions": 0,
+  "search_islands": 1,
+  "search_runs": 1,
+  "trials": 0
+ },
+ "generated": "2026-09-18T18:25:37Z",
+ "instances": [
+  {
+   "circuits": 1,
+   "gates_passed": null,
+   "gates_total": null,
+   "instance": "739b9d9af345718b",
+   "metrics": {},
+   "rows": [
+    0
+   ],
+   "run": "1",
+   "valid": true
+  },
+  {
+   "circuits": 1,
+   "gates_passed": null,
+   "gates_total": null,
+   "instance": "89de6c136f8ba309",
+   "metrics": {},
+   "rows": [
+    1
+   ],
+   "run": "1",
+   "valid": true
+  }
+ ],
+ "ledger_rows": {
+  "consolidation": 3,
+  "consolidation_deferred": 1,
+  "paper_authored": 6,
+  "paper_preflight": 6,
+  "paper_reader": 1,
+  "reference": 1,
+  "search_hit": 2,
+  "search_island": 1,
+  "search_near_miss": 4,
+  "search_run": 1,
+  "verifier_premortem": 1
+ },
+ "metrics": [],
+ "notes": [
+  "Engine-derived from the ledger. State THESE numbers; do not recount.",
+  "Instance identity: verifier (the verifier's own fingerprint(), so gauge copies of one object count once)",
+  "per_run_totals is summed from per_run: a table total that disagrees with its own column is a defect in the paper, never in this file.",
+  "No METRIC_DIRECTION declared by the verifier, so where a reference was compiled more than once both extremes are exposed and neither is called best. Say which is better from the contract, never by choosing one."
+ ],
+ "per_run": [
+  {
+   "candidates_explored": 309,
+   "hit_rows": 2,
+   "islands": 1,
+   "islands_reporting": 1,
+   "near_misses": 4,
+   "new_instances": 2,
+   "run": "1"
+  }
+ ],
+ "per_run_totals": {
+  "candidates_explored": 309,
+  "hit_rows": 2,
+  "islands": 1,
+  "islands_reporting": 1,
+  "near_misses": 4,
+  "new_instances": 2
+ },
+ "references": [],
+ "signature": "737e462d286127d1"
+}
